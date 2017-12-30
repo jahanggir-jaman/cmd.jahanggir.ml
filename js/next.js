@@ -18,21 +18,19 @@ $(document).ready(function() {
 	// Text Options
 	let wakeUp = "Wake up, Neo...",
 	knock = "Knock, knock, Neo...",
-	about = 'My name is Alexander Kallaway, and I am a Front End Developer.',
+	about = 'My name is Jahanggir Jaman, and I am a Rockstar Web Developer.',
 	writeCode = "I write code",
 	learnMore = "Learn more",
 	quote = "There is no spoon.",
 	listCommands = 'Available commands: [about] [bio] [clear] [contact] [skills] [social] [portfolio] [quote]',
 	commandNotFound = 'Command not found. Don\'t worry, it\'s probably just a glitch in the Matrix. Gli Glitch in the Matrix trix.',
 	skills = "Main: HTML5, CSS3, ReactJS, D3, GIT and Github.\n Familiar with: ReactJS, Haxe, OpenFL, Python, THREE.js, Node.js.",
-	contact = "Contact me on Twitter -> @ka11away";
+	contact = "Contact me on Twitter -> @JahanggirJaman";
 	// let
 
 	let arrowNavigationMode = false;
 
 	let quotes = [
-		"There is no spoon.",
-		"Follow the white rabbit.",
 		"Don't think you are, know you are.",
 		"There's a difference between knowing the path and walking the path.",
 		"Free your mind",
@@ -72,22 +70,22 @@ $(document).ready(function() {
 
 
 		let githubLink = $('<a>Github</a>').attr({
-			'href': 'https://github.com/kallaway/',
+			'href': 'https://github.com/jahanggir-jaman/',
 			'target': '_blank'
 		});
 
 		let twitterLink = $('<a>Twitter</a>').attr({
-			'href': 'https://twitter.com/ka11away',
+			'href': 'https://twitter.com/JahanggirJaman',
 			'target': '_blank'
 		});
 
 		let codewarsLink = $('<a>Codewars</a>').attr({
-			'href': 'http://www.codewars.com/users/Kallaway',
+			'href': 'http://www.codewars.com/users/Jahanggir',
 			'target': '_blank'
 		});
 
 		let linkedinLink = $('<a>LinkedIn</a>').attr({
-			'href': 'https://ca.linkedin.com/in/kallaway',
+			'href': 'https://linkedin.com/in/Jahanggir',
 			'target': '_blank'
 		})
 
@@ -117,7 +115,7 @@ $(document).ready(function() {
 		let portfolioContainer = $('<div></div>');
 
 		let portfolioLink = $('<a>here</a>').attr({
-			'href': 'https://codepen.io/kallaway/',
+			'href': 'https://codepen.io/jahanggir/',
 			'target': '_blank'
 		});
 
