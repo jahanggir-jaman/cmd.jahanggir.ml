@@ -18,14 +18,14 @@ $(document).ready(function() {
 	// Text Options
 	let wakeUp = "Wake up, Neo...",
 	knock = "Knock, knock, Neo...",
-	about = 'My name is Jahanggir Jaman, and I am a Rockstar Web Developer.',
+	about = 'My name is Jahanggir Jaman, I am a Rockstar Developer, Digital Business Consultant and also a ITSecGuy.',
 	writeCode = "I write code",
 	learnMore = "Learn more",
-	quote = "There is no spoon.",
+	quote = "The quieter you become, the more you are able to hear.",
 	listCommands = 'Available commands: [about] [bio] [clear] [contact] [skills] [social] [portfolio] [quote]',
 	commandNotFound = 'Command not found. Don\'t worry, it\'s probably just a glitch in the Matrix. Gli Glitch in the Matrix trix.',
-	skills = "Main: HTML5, CSS3, ReactJS, D3, GIT and Github.\n Familiar with: ReactJS, Haxe, OpenFL, Python, THREE.js, Node.js.",
-	contact = "Contact me on Twitter -> @JahanggirJaman";
+	skills = "Main: HTML5, CSS3, ReactJS, D3, GIT, Social Engneering, Growth Hacking.\n Familiar with: Kali Linux, WooCommerce, Haxe, OpenFL, Python, THREE.js, Node.js.",
+	contact = "Contact me on email -> jahanggir@jaman.xyz";
 	// let
 
 	let arrowNavigationMode = false;
@@ -79,8 +79,8 @@ $(document).ready(function() {
 			'target': '_blank'
 		});
 
-		let codewarsLink = $('<a>Codewars</a>').attr({
-			'href': 'http://www.codewars.com/users/Jahanggir',
+		let codewarsLink = $('<a>Facebook</a>').attr({
+			'href': 'http://www.facebook.com/JahanggirJaman',
 			'target': '_blank'
 		});
 
@@ -136,7 +136,7 @@ $(document).ready(function() {
 	// <li><i class="fa fa-suitcase"></i> <a href="https://www.vretta.com/" target="_blank">work</a></li>
 
 
-	let shortBio = 'Self-taught web developer, absolutely passionate about coding and the future of technology. I am constantly learning and expanding my skills. While you are reading this, I am probably busy learning something new. I am interested in habit development, language learning (currently French), startups.';
+	let shortBio = 'Self-taught web developer, absolutely passionate about coding and the future of technology. I am constantly learning and expanding my skills. While you are reading this, I am probably busy learning something new. I am interested in habit development, language learning (currently Go), startups.';
 	let typeSpeedSuperFast = 30;
 	let typeSpeedSlow = 75;
 	let typeSpeedFast = 60; // in ms
